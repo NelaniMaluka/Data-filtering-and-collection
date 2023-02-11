@@ -1,7 +1,7 @@
 # opens the data.txt file
 # iterates over each line and splits each line with commas
 
-with open ("Data.txt") as f:
+with open ("Costomer Orders.txt") as f:
     for line in f:
         a = line.split(",")
         z = " "
